@@ -21,6 +21,11 @@ public class Main
         System.out.println(minNumber);
 
         //3
+        System.out.print("Max sum of n-1: ");
+        int maxSum=mmFunctions.getmaxSum(numbers);
+        System.out.println(maxSum);
+
+
     }
 
 

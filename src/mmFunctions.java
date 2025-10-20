@@ -19,6 +19,13 @@ public class mmFunctions {
         return min;
     }
 
-
+    public static int getmaxSum(int[] numbers) {
+        int sum=0;
+        for(int number:numbers){
+            sum=sum+number;
+        }
+        int min=getMinNumber(numbers);
+        return sum-min;
+    }
 }
 
