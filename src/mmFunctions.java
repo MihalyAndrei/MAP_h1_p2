@@ -8,5 +8,17 @@ public class mmFunctions {
         }
         return max;
     }
+
+    public static int getMinNumber(int[] numbers) {
+        int min=numbers[0];
+        for(int number:numbers){
+            if(min>number){
+                min=number;
+            }
+        }
+        return min;
+    }
+
+
 }
 

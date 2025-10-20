@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 public class Main
 {
     public static void main(String[] args)
@@ -8,7 +10,19 @@ public class Main
             System.out.println("No numbers found");
             return;
         }
+        //1
+        System.out.print("Max number: ");
         int maxNumber= mmFunctions.getMaxNumber(numbers);
         System.out.println(maxNumber);
+
+        //2
+        System.out.print("Min number: ");
+        int minNumber= mmFunctions.getMinNumber(numbers);
+        System.out.println(minNumber);
+
+        //3
     }
+
+
+
 }
