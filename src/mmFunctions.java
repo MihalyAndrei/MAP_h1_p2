@@ -27,5 +27,14 @@ public class mmFunctions {
         int min=getMinNumber(numbers);
         return sum-min;
     }
+
+    public static int getminSum(int[] numbers) {
+        int sum=0;
+        for(int number:numbers){
+            sum=sum+number;
+        }
+        int max=getMaxNumber(numbers);
+        return sum-max;
+    }
 }
 

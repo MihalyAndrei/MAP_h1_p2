@@ -25,7 +25,10 @@ public class Main
         int maxSum=mmFunctions.getmaxSum(numbers);
         System.out.println(maxSum);
 
-
+        //4
+        System.out.print("Min sum of n-1: ");
+        int minSum=mmFunctions.getminSum(numbers);
+        System.out.println(minSum);
     }
 
 
